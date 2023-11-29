@@ -1,0 +1,81 @@
+
+body{
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+    background-color: grey;
+}
+
+#container{
+    display: flex;
+    justify-content: flex-start; 
+    background-color: orange;
+}
+#titulo{
+    margin-left:3%;
+}
+
+#caja-centro{
+    border: 2px solid white;
+    background-color: darkslategrey;
+    margin: 3% 25%;
+    width: 40%;
+    height: 50vh;
+}
+
+#caja-numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    border-bottom: 2px solid white;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+#caja-operadores{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+}
+
+button{
+    height: 40%;
+    width: 15%;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10%;
+}
+
+button#aumentar{
+    background-color: lightgreen;
+}
+
+button#aumentar:hover{
+    background-color: green;
+}
+
+button#reset{
+    background-color: pink;
+}
+
+button#reset:hover{
+    background-color: red;
+}
+
+button#decrementar{
+    background-color: lightblue;
+}
+
+button#decrementar:hover{
+    background-color: rgb(104, 104, 233);
+}
+
+
+#perfiles{
+    
+    padding-right: 50px;
+}
